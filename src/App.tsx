@@ -1,7 +1,7 @@
-import React from 'react';
+// import React from 'react';
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
-import { ArrowDown, Mail, MessageSquare } from 'lucide-react';
+import { Mail, MessageSquare } from 'lucide-react';
 
 function App() {
   const projects = [
@@ -36,20 +36,17 @@ function App() {
       <Header />
       
       {/* Hero Section */}
-      <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8">
+      <section className="pt-32 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            打造数字
+            建造一个
             <span className="bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              {" "}体验
+              {" "}小果园
             </span>
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            专注于创建美观且功能强大的网络应用的全栈开发者
+            为退休做准备
           </p>
-          <a href="#projects" className="inline-flex items-center justify-center">
-            <ArrowDown className="w-10 h-10 text-purple-600 animate-bounce" />
-          </a>
         </div>
       </section>
 
