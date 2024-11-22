@@ -5,7 +5,6 @@ interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
-  technologies: string[];
   liveUrl?: string;
   githubUrl?: string;
 }
@@ -14,7 +13,6 @@ export default function ProjectCard({
   title,
   description,
   image,
-  technologies,
   liveUrl,
   githubUrl,
 }: ProjectCardProps) {
@@ -54,16 +52,6 @@ export default function ProjectCard({
       <div className="p-6">
         <h3 className="text-xl font-semibold text-gray-800 mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        <div className="flex flex-wrap gap-2">
-          {technologies.map((tech) => (
-            <span
-              key={tech}
-              className="px-3 py-1 text-sm bg-purple-100 text-purple-600 rounded-full"
-            >
-              {tech}
-            </span>
-          ))}
-        </div>
       </div>
     </div>
   );
