@@ -6,26 +6,23 @@ import { Mail, MessageSquare } from 'lucide-react';
 function App() {
   const projects = [
     {
-      title: "电商平台",
-      description: "一个功能齐全的在线购物平台，具有实时库存管理功能。",
+      title: "天涯神贴播客",
+      description: "一个在线收听天涯神贴播客的项目",
       image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://podcast.tianyashentie.org/",
     },
     {
-      title: "社交媒体仪表板",
-      description: "用于社交媒体管理和内容计划的分析仪表板。",
+      title: "郭德纲相声播客",
+      description: "一个在线收听郭德纲相声的项目",
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      liveUrl: "https://guodegang.xiaobaoku.cc/",
     },
-    {
-      title: "任务管理应用",
-      description: "具有实时更新功能的协作项目管理工具。",
-      image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
-    }
+    // {
+    //   title: "任务管理应用",
+    //   description: "具有实时更新功能的协作项目管理工具。",
+    //   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
+    //   liveUrl: "https://example.com",
+    // }
   ];
 
   return (

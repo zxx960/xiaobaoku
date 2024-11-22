@@ -1,12 +1,11 @@
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink  } from 'lucide-react';
 
 interface ProjectCardProps {
   title: string;
   description: string;
   image: string;
   liveUrl?: string;
-  githubUrl?: string;
 }
 
 export default function ProjectCard({
@@ -14,11 +13,10 @@ export default function ProjectCard({
   description,
   image,
   liveUrl,
-  githubUrl,
 }: ProjectCardProps) {
   return (
     <div className="group relative bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl">
-      <div className="relative h-48 sm:h-64">
+      <div className="relative h-40 sm:h-64">
         <img
           src={image}
           alt={title}
@@ -34,16 +32,6 @@ export default function ProjectCard({
                 className="p-2 bg-white rounded-full text-gray-800 hover:bg-gray-100 transition-colors"
               >
                 <ExternalLink className="w-5 h-5" />
-              </a>
-            )}
-            {githubUrl && (
-              <a
-                href={githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 bg-white rounded-full text-gray-800 hover:bg-gray-100 transition-colors"
-              >
-                <Github className="w-5 h-5" />
               </a>
             )}
           </div>
