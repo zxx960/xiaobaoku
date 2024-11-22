@@ -10,7 +10,7 @@ function App() {
     {
       title: "天涯神贴播客",
       description: "一个在线收听天涯神贴播客的项目",
-      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=800",
+      image: "https://images.unsplash.com/photo-1661956602116-aa6865609028",
       liveUrl: "https://podcast.tianyashentie.org/",
     },
     {
