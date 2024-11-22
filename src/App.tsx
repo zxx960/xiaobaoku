@@ -2,6 +2,8 @@
 import Header from './components/Header';
 import ProjectCard from './components/ProjectCard';
 import { Mail, MessageSquare } from 'lucide-react';
+import heishenhua from './assets/heishenhua.webp';
+import guodegang from './assets/guodegang.webp';
 
 function App() {
   const projects = [
@@ -12,17 +14,17 @@ function App() {
       liveUrl: "https://podcast.tianyashentie.org/",
     },
     {
+      title: "黑神话悟空影神图",
+      description: "这里收录了《黑神话：悟空》中出现的各类妖魔鬼怪",
+      image: heishenhua,
+      liveUrl: "https://yingshentu.xiaobaoku.cc/",
+    },
+    {
       title: "郭德纲相声播客",
       description: "一个在线收听郭德纲相声的项目",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800",
+      image: guodegang,
       liveUrl: "https://guodegang.xiaobaoku.cc/",
     },
-    // {
-    //   title: "任务管理应用",
-    //   description: "具有实时更新功能的协作项目管理工具。",
-    //   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-    //   liveUrl: "https://example.com",
-    // }
   ];
 
   return (
