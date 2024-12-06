@@ -11,11 +11,11 @@ const Home = () => {
           <div className="bg-white rounded-2xl px-8 py-16 md:px-12 md:py-20 relative overflow-hidden">
             <div className="relative z-10">
               <h1 className="text-4xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 mb-6">
-                西牧的小宝库
+                西牧个人作品集
               </h1>
-              <p className="text-xl md:text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400 max-w-2xl mx-auto leading-relaxed tracking-wide">
+              {/* <p className="text-xl md:text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-pink-400 max-w-2xl mx-auto leading-relaxed tracking-wide">
                 个人项目作品集
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
